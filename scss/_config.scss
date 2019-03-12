@@ -16,6 +16,7 @@ $background-opacity: 0.9;
       background-size: cover;
 
       &:after {
+        // Took out overlay class and put in &:after and content
         content: "";
         position: absolute;
         top: 0;

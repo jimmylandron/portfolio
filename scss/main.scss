@@ -54,6 +54,11 @@ main {
   // height: 100%;
   min-height: calc(100vh - 60px);
 
+  #myicon {
+    display: inline;
+    font-size: 0.8rem;
+  }
+
   .icons {
     margin-top: 1rem;
 
@@ -91,7 +96,7 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .job-1 {

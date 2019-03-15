@@ -145,6 +145,9 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
+  main #myicon {
+    display: inline;
+    font-size: 0.8rem; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -169,7 +172,7 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

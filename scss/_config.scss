@@ -78,17 +78,51 @@ $background-opacity: 0.9;
   @media screen and (max-width: 500px) {
     @content;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    @content;
+  }
+
+  @media only screen and (min-width: 360px) and (max-width: 640px) {
+    @content;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+    @content;
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    @content;
+  }
+
+  @media only screen and (min-width: 414px) and (max-width: 736px) {
+    @content;
+  }
+  @media only screen and (min-width: 736px) and (max-width: 768px) {
+    @content;
+  }
+
+  // @media only screen and (min-width: 375px) and (max-width: 812px) {
+  //   @content;
+  // }
+
+  // @media only screen and (min-width: 411px) and (max-width: 823px) {
+  //   @content;
+  // }
 }
+
 @mixin mediaMd {
   @media screen and (max-width: 768px) {
     @content;
   }
 }
+
 @mixin mediaLg {
   @media screen and (min-width: 769px) and (max-width: 1170px) {
     @content;
   }
 }
+
 @mixin mediaXl {
   @media screen and (min-width: 1171px) {
     @content;
